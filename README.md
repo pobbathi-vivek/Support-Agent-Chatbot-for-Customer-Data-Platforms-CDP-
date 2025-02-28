@@ -68,6 +68,11 @@ The chatbot uses the **Mistral** model through the **Ollama API**. Install Ollam
 ├── chroma_db_mparticle  # ChromaDB collection for mParticle
 ├── chroma_db_zeotap     # ChromaDB collection for Zeotap
 ├── chroma_db_segment_data # ChromaDB collection for Segment
+├── scraper and vector db builder # Python script for scraping and vector DB creation
+├── sublinks_lytics       # Sublinks text file for Lytics
+├── sublinks_mparticle    # Sublinks text file for mParticle
+├── sublinks_segment      # Sublinks text file for Segment
+└── sublinks_zeotap       # Sublinks text file for Zeotap
 └── README.md            # Documentation
 ```
 
