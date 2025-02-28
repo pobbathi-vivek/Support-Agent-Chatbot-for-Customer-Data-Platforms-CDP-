@@ -1,5 +1,3 @@
-# Support-Agent-Chatbot-for-Customer-Data-Platforms-CDP
-
 # Support Agent Chatbot for CDP
 
 ## Overview
@@ -66,14 +64,17 @@ The chatbot uses the **Mistral** model through the **Ollama API**. Install Ollam
 .
 ├── app.py               # Main Streamlit app
 ├── requirements.txt     # Required libraries
-├── chroma_db            # Folder containing ChromaDB collections
+├── chroma_db_lytics     # ChromaDB collection for Lytics
+├── chroma_db_mparticle  # ChromaDB collection for mParticle
+├── chroma_db_zeotap     # ChromaDB collection for Zeotap
+├── chroma_db_segment_data # ChromaDB collection for Segment
 └── README.md            # Documentation
 ```
 
 ## Troubleshooting
 - If Ollama API fails, ensure it is running in the background.
 - Check that all required libraries are installed.
-- Verify ChromaDB collections are present in the `chroma_db` folder.
+- Verify ChromaDB collections are present in their respective folders.
 
 ## Contributing
 Feel free to submit issues or pull requests. For major changes, please open an issue first to discuss the proposed changes.
